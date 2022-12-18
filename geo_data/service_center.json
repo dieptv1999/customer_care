@@ -1,0 +1,606 @@
+[
+  {
+    "index": 26,
+    "name": "HÀ NỘI",
+    "position": [21.0199, 105.7911],
+    "address": "Tầng 5, Tháp B, Tòa nhà Central Point, Số 219 Trung Kính, Phường Yên Hoà, Quận Cầu Giấy, Thành phố Hà Nội",
+    "phone": "0326 627 777",
+    "area": "Miền Bắc",
+    "region": "Đồng bằng sông Hồng",
+    "important": true,
+    "labelPosition": [0,0,-200,80],
+    "labelPositionMb": [0,0,-80,40]
+  },
+  {
+    "index": 41,
+    "name": "NINH BÌNH",
+    "position": [20.261763, 105.969391],
+    "address": "18 Trần Hưng Đạo, Tân Thành, TP Ninh Bình, Ninh Bình",
+    "phone": "0989 400 037",
+    "area": "Miền Bắc",
+    "region": "Đồng bằng sông Hồng"
+  },
+  {
+    "index": 61,
+    "name": "VĨNH PHÚC",
+    "position": [21.325083, 105.600666],
+    "address": "18 Trần Hưng Đạo, Tân Thành, TP Ninh Bình, Ninh Bình",
+    "phone": "0989400027",
+    "area": "Miền Bắc",
+    "region": "Đồng bằng sông Hồng",
+    "showLabel": false
+  },
+  {
+    "index": 54,
+    "name": "THÁI BÌNH",
+    "position": [20.4428084,106.330187],
+    "address": "18 Trần Hưng Đạo, Tân Thành, TP Ninh Bình, Ninh Bình",
+    "phone": "0326727777",
+    "area": "Miền Bắc",
+    "region": "Đồng bằng sông Hồng"
+  },
+  {
+    "index": 39,
+    "name": "NAM ĐỊNH",
+    "position": [20.438957, 106.159611],
+    "address": "18 Trần Hưng Đạo, Tân Thành, TP Ninh Bình, Ninh Bình",
+    "phone": "0326717777",
+    "area": "Miền Bắc",
+    "region": "Đồng bằng sông Hồng",
+    "showLabel": false
+  },
+  {
+    "index": 30,
+    "name": "HƯNG YÊN",
+    "position": [21.0199, 105.7911],
+    "address": "18 Trần Hưng Đạo, Tân Thành, TP Ninh Bình, Ninh Bình",
+    "phone": "0989400032",
+    "area": "Miền Bắc",
+    "region": "Đồng bằng sông Hồng",
+    "showLabel": false
+  },
+  {
+    "index": 30,
+    "name": "HẢI DƯƠNG",
+    "position": [20.672039, 106.059074],
+    "address": "18 Trần Hưng Đạo, Tân Thành, TP Ninh Bình, Ninh Bình",
+    "phone": "02206250000",
+    "area": "Miền Bắc",
+    "region": "Đồng bằng sông Hồng",
+    "showLabel": false
+  },
+  {
+    "index": 27,
+    "name": "HÀ NAM",
+    "position": [20.536417, 105.912931],
+    "address": "18 Trần Hưng Đạo, Tân Thành, TP Ninh Bình, Ninh Bình",
+    "phone": "0326617777",
+    "area": "Miền Bắc",
+    "region": "Đồng bằng sông Hồng",
+    "showLabel": false
+  },
+  {
+    "index": 4,
+    "name": "BẮC NINH",
+    "position": [21.174939, 106.079038],
+    "address": "18 Trần Hưng Đạo, Tân Thành, TP Ninh Bình, Ninh Bình",
+    "phone": "0326597777",
+    "area": "Miền Bắc",
+    "region": "Đồng bằng sông Hồng"
+  },
+
+
+
+
+  {
+    "index": 43,
+    "name": "PHÚ THỌ",
+    "position": [21.332788, 105.375162],
+    "address": "1688 Hùng Vương, P. Nông Trang, TP. Việt Trì, tỉnh Phú Thọ",
+    "phone": "0326 897 777",
+    "area": "Miền Bắc",
+    "region": "Đông Bắc Bộ"
+  },
+  {
+    "index": 25,
+    "name": "HÀ GIANG",
+    "position": [22.816129, 104.981635],
+    "address": "218 B Nguyễn Trãi, TP Hà Giang, Hà Giang",
+    "phone": "02196556888",
+    "area": "Miền Bắc",
+    "region": "Đông Bắc Bộ"
+  },
+  {
+    "index": 59,
+    "name": "TUYÊN QUANG",
+    "position": [21.813549, 105.209655],
+    "address": "Tổ 9 Tân Quang, TP Tuyên Quang, Tuyên Quang",
+    "phone": "0326 747 777",
+    "area": "Miền Bắc",
+    "region": "Đông Bắc Bộ"
+  },
+  {
+    "index": 13,
+    "name": "CAO BẰNG",
+    "position": [22.681590, 106.219557],
+    "address": "Lô 10, Khu Đô Thị Mới,Phường Đề Thám, TP Cao Bằng, Cao Bằng",
+    "phone": "02066250000",
+    "area": "Miền Bắc",
+    "region": "Đông Bắc Bộ"
+  },
+  {
+    "index": 3,
+    "name": "BẮC KẠN",
+    "position": [22.146264, 105.823274],
+    "address": "Số 46, tổ 10, thành phố Bắc Kạn, tỉnh Bắc Kạn",
+    "phone": "02096250000",
+    "area": "Miền Bắc",
+    "region": "Đông Bắc Bộ"
+  },
+  {
+    "index": 55,
+    "name": "THÁI NGUYÊN",
+    "position": [21.594436, 105.836786],
+    "address": "Số 4 Hoàng Văn Thụ, TP Thái Nguyên, Thái Nguyên",
+    "phone": "0326 867 777",
+    "area": "Miền Bắc",
+    "region": "Đông Bắc Bộ"
+  },
+  {
+    "index": 34,
+    "name": "LẠNG SƠN",
+    "position": [21.831264, 106.763847],
+    "address": "Hùng Vương, Xã Mai Pha, Lạng Sơn",
+    "phone": "0328497777",
+    "area": "Miền Bắc",
+    "region": "Đông Bắc Bộ"
+  },
+  {
+    "index": 2,
+    "name": "BẮC GIANG",
+    "position": [21.271814, 106.204292],
+    "address": "Số 4A, Hoàng Văn Thụ, p Xương Giang, TP Bắc Giang, Bắc Giang",
+    "phone": "0326907777",
+    "area": "Miền Bắc",
+    "region": "Đông Bắc Bộ"
+  },
+  {
+    "index": 48,
+    "name": "QUẢNG NINH",
+    "position": [20.955645, 107.099615],
+    "address": "Tầng 3, Tòa nhà Viettel Quảng Ninh, Số 70 đường Nguyễn Văn Cừ, P.Hồng Hải, TP Hạ Long, Quảng Ninh",
+    "phone": "0326807777",
+    "area": "Miền Bắc",
+    "region": "Đông Bắc Bộ"
+  },
+
+
+
+  {
+    "index": 29,
+    "name": "HÒA BÌNH",
+    "position": [20.818714, 105.346146],
+    "address": "Tòa nhà Viettel, Xóm 8, xã Sủ Ngòi, TP. Hòa Bình, tỉnh Hòa Bình",
+    "phone": "0326 637 777",
+    "area": "Miền Bắc",
+    "region": "Đông Bắc Bộ"
+  },
+  {
+    "index": 51,
+    "name": "SƠN LA",
+    "position": [21.327897, 103.913901],
+    "address": "Số 1 Chu Văn Thịnh, tổ 01, P. Tô Hiệu, TP. Sơn La, tỉnh Sơn La",
+    "phone": "0983 122 366",
+    "area": "Miền Bắc",
+    "region": "Đông Bắc Bộ"
+  },
+  {
+    "index": 19,
+    "name": "ĐIỆN BIÊN",
+    "position": [21.395669, 103.022966],
+    "address": "Số 176 Trường Chinh, tổ 9, P. Tân Thanh, TP. Điện Biên Phủ, tỉnh Điện Biên",
+    "phone": "0326 897 777",
+    "area": "Miền Bắc",
+    "region": "Đông Bắc Bộ"
+  },
+  {
+    "index": 35,
+    "name": "LAI CHÂU",
+    "position": [22.386887, 103.475927],
+    "address": "Tân Phong, TP Lai Châu, Lai Châu",
+    "phone": "0328517777",
+    "area": "Miền Bắc",
+    "region": "Đông Bắc Bộ"
+  },
+  {
+    "index": 37,
+    "name": "LÀO CAI",
+    "position": [22.429833, 104.021854],
+    "address": "B6 Trần Hưng Đạo, Bắc Lệnh, TP Lào Cai, Lào Cai",
+    "phone": "02146250000",
+    "area": "Miền Bắc",
+    "region": "Đông Bắc Bộ"
+  },
+  {
+    "index": 62,
+    "name": "YÊN BÁI",
+    "position": [21.721580, 104.879383],
+    "address": "Tổ dân phố Hồng Phú, Hồng Hà, TP Yên Bái, Yên Bái",
+    "phone": "0326827777",
+    "area": "Miền Bắc",
+    "region": "Đông Bắc Bộ"
+  },
+
+
+
+  {
+    "index": 56,
+    "name": "THANH HOÁ",
+    "position": [19.806033, 105.791625],
+    "address": "Nam Đại Lộ Lê Lợi, Đông Hương, TP Thanh Hoá, Thanh Hoá",
+    "phone": "0326647777",
+    "area": "Miền Trung",
+    "region": "Bắc Trung Bộ"
+  },
+  {
+    "index": 40,
+    "name": "NGHỆ AN",
+    "position": [18.694283, 105.687841],
+    "address": "Đại lộ Lê Nin, Hà Huy Tập, TP Vinh, Nghệ An",
+    "phone": "0326657777",
+    "area": "Miền Trung",
+    "region": "Bắc Trung Bộ"
+  },
+  {
+    "index": 28,
+    "name": "HÀ TĨNH",
+    "position": [18.352848, 105.893727],
+    "address": "16 Xô Viết, Nguyễn Du, TP. Hà Tĩnh, Hà Tĩnh",
+    "phone": "0326547777",
+    "area": "Miền Trung",
+    "region": "Bắc Trung Bộ"
+  },
+  {
+    "index": 45,
+    "name": "QUẢNG BÌNH",
+    "position": [17.476777, 106.617843],
+    "address": "29 Trần Quang Khải, Đồng Phú, TP Đồng Hới, Quảng Bình",
+    "phone": "02326 55 8888",
+    "area": "Miền Trung",
+    "region": "Bắc Trung Bộ"
+  },
+  {
+    "index": 49,
+    "name": "QUẢNG TRỊ",
+    "position": [16.826844, 107.099259],
+    "address": "01 Hoàng Diệu, Đông Giang, TP Đông Hà, Quảng Trị",
+    "phone": "0983661252",
+    "area": "Miền Trung",
+    "region": "Bắc Trung Bộ"
+  },
+  {
+    "index": 53,
+    "name": "THỪA THIÊN HUẾ",
+    "position": [16.461575, 107.591362],
+    "address": "11 Lý Thường Kiệt, Phú Nhuận, TP Huế, Thừa Thiên Huế",
+    "phone": "0326 527 777",
+    "area": "Miền Trung",
+    "region": "Bắc Trung Bộ"
+  },
+
+
+
+  {
+    "index": 18,
+    "name": "ĐÀ NẴNG",
+    "position": [16.005116, 108.198038],
+    "address": "Lô A2-9 Thăng Long, Hòa Thọ Đông, Cẩm Lệ, Thành phố Đà Nẵng",
+    "phone": "0326 507 777",
+    "area": "Miền Trung",
+    "region": "Nam Trung Bộ",
+    "important": true,
+    "labelPosition": [0,0,20, -30],
+    "labelPositionMb": [0,0,-140, -20],
+    "positionRect": true
+  },
+  {
+    "index": 46,
+    "name": "QUẢNG NAM",
+    "position": [15.569227, 108.475843],
+    "address": "121 Hùng Vương, Tam Kỳ, Quảng Nam",
+    "phone": "0865 000 357",
+    "area": "Miền Trung",
+    "region": "Nam Trung Bộ"
+  },
+  {
+    "index": 47,
+    "name": "QUẢNG NGÃI",
+    "position": [15.120720, 108.784181],
+    "address": "Số 07B Nguyễn Chánh, Trần Phú, TP Quảng Ngãi, Quảng Ngãi",
+    "phone": "0362 649 7777",
+    "area": "Miền Trung",
+    "region": "Nam Trung Bộ"
+  },
+  {
+    "index": 7,
+    "name": "BÌNH ĐỊNH",
+    "position": [13.772978, 109.239703],
+    "address": "01 Đinh Bộ Lĩnh, TP Quy Nhơn, Bình Định",
+    "phone": "0326 987 777",
+    "area": "Miền Trung",
+    "region": "Nam Trung Bộ"
+  },
+  {
+    "index": 44,
+    "name": "PHÚ YÊN",
+    "position": [13.106873, 109.304008],
+    "address": "Hùng Vương, Phường 9, TP Tuy Hòa, Phú Yên",
+    "phone": "0326 967 777",
+    "area": "Miền Trung",
+    "region": "Nam Trung Bộ"
+  },
+  {
+    "index": 31,
+    "name": "KHÁNH HOÀ",
+    "position": [12.207069, 109.202479],
+    "address": "9 Võ Thị Sáu, TP Nha Trang, Khánh Hòa",
+    "phone": "0258 625 0000",
+    "area": "Miền Trung",
+    "region": "Nam Trung Bộ"
+  },
+  {
+    "index": 42,
+    "name": "NINH THUẬN",
+    "position": [11.587564, 108.966410],
+    "address": "369 Đường 21/8, Phước Mỹ, TP. Phan Rang Tháp Chàm, Ninh Thuận",
+    "phone": "0326 897 777",
+    "area": "Miền Trung",
+    "region": "Nam Trung Bộ"
+  },
+  {
+    "index": 10,
+    "name": "BÌNH THUẬN",
+    "position": [10.934769, 108.114658],
+    "address": "Phường Phú Thủy, Thành phố Phan Thiết, Bình Thuận",
+    "phone": "0328 417 777",
+    "area": "Miền Trung",
+    "region": "Nam Trung Bộ"
+  },
+
+
+
+  {
+    "index": 33,
+    "name": "KON TUM",
+    "position": [14.349726, 108.000649],
+    "address": "1075 Phan Đình Phùng, TP Kon Tum, Kon Tum",
+    "phone": "0376 271 684",
+    "area": "Miền Trung",
+    "region": "Tây Nguyên"
+  },
+  {
+    "index": 20,
+    "name": "GIA LAI",
+    "position": [13.980973, 108.010683],
+    "address": "87 - 89 Nguyễn Tất Thành, TP Pleiku, Gia Lai",
+    "phone": "0326 927 777",
+    "area": "Miền Trung",
+    "region": "Tây Nguyên"
+  },
+  {
+    "index": 14,
+    "name": "ĐẮK LẮK",
+    "position": [12.695052, 108.056805],
+    "address": "48 Lý Tự Trọng, TP Buôn Ma Thuột, Đắk Lắk",
+    "phone": "0326 917 777",
+    "area": "Miền Trung",
+    "region": "Tây Nguyên"
+  },
+  {
+    "index": 15,
+    "name": "ĐẮK NÔNG",
+    "position": [12.013637, 107.686984],
+    "address": "308 Tôn Đức Thắng, p.Nghia Thành, Gia Nghĩa, Đắc Nông",
+    "phone": "0326 017 777",
+    "area": "Miền Trung",
+    "region": "Tây Nguyên"
+  },
+  {
+    "index": 36,
+    "name": "LÂM ĐỒNG",
+    "position": [11.947789, 108.465821],
+    "address": "39 Hùng Vương, P9, TP Đà Lạt, Lâm Đồng",
+    "phone": "0326 937 777",
+    "area": "Miền Trung",
+    "region": "Tây Nguyên"
+  },
+
+
+
+
+  {
+    "index": 24,
+    "name": "HỒ CHÍ MINH",
+    "position": [10.807222, 106.650003],
+    "address": "H158 Hoàng Hoa Thám, Tân Bình, TP Hồ Chí Minh",
+    "phone": "0282 2333 332",
+    "area": "Miền Nam",
+    "region": "Đông Nam Bộ",
+    "important": true,
+    "labelPosition": [0,0,100,40]
+  },
+  {
+    "index": 6,
+    "name": "BÀ RỊA - VŨNG TÀU",
+    "position": [10.365177, 107.084157],
+    "address": "32K2 đường Trịnh Hoài Đức, P7, TP Vũng Tàu, Bà Rịa - Vũng Tàu",
+    "phone": "096 353 8777",
+    "area": "Miền Nam",
+    "region": "Đông Nam Bộ",
+    "showLabel": false
+  },
+  {
+    "index": 8,
+    "name": "BÌNH DƯƠNG",
+    "position": [10.972958, 106.670977],
+    "address": "Số 277 Đại Lộ Bình Dương, P.Chánh Nghĩa, Tp Thủ Dầu Một, Bình Dương",
+    "phone": "0989 400 061",
+    "area": "Miền Nam",
+    "region": "Đông Nam Bộ",
+    "showLabel": false
+  },
+  {
+    "index": 9,
+    "name": "BÌNH PHƯỚC",
+    "position": [11.530336, 106.895850],
+    "address": "818 Phú Riềng Đỏ, P. Tân Xuân, TX. Đồng Xoài, Bình Phước",
+    "phone": "0326 027 777",
+    "area": "Miền Nam",
+    "region": "Đông Nam Bộ"
+  },
+  {
+    "index": 16,
+    "name": "ĐỒNG NAI",
+    "position": [10.956048, 106.821421],
+    "address": "2047 Đ.Nguyễn Ái Quốc, Trung Dũng, Biên Hòa, Đồng Nai",
+    "phone": "0327 057 777",
+    "area": "Miền Nam",
+    "region": "Đông Nam Bộ"
+  },
+  {
+    "index": 52,
+    "name": "TÂY NINH",
+    "position": [11.300908, 106.101448],
+    "address": "162 Đường 30-4, P3, TP Tây Ninh, Tây Ninh",
+    "phone": "0989 400 060",
+    "area": "Miền Nam",
+    "region": "Đông Nam Bộ"
+  },
+
+
+
+
+
+  {
+    "index": 0,
+    "name": "AN GIANG",
+    "position": [10.393503, 105.423389],
+    "address": "Số 188A10 Hàm Nghi, Bình Khánh, TP Long Xuyên, An Giang",
+    "phone": "096 292 2345",
+    "area": "Miền Nam",
+    "region": "Đồng bằng sông Cửu Long"
+  },
+  {
+    "index": 1,
+    "name": "BẠC LIÊU",
+    "position": [9.291754, 105.665217],
+    "address": "02 Quốc lộ 1A, P7, TP Bạc Liêu, Bạc Liêu",
+    "phone": "098 888 8770",
+    "area": "Miền Nam",
+    "region": "Đồng bằng sông Cửu Long"
+  },
+  {
+    "index": 5,
+    "name": "BẾN TRE",
+    "position": [10.228965, 106.356425],
+    "address": "68C Nguyễn Văn Tư, P7, TP Bến Tre, Bến Tre",
+    "phone": "0327 197 777",
+    "area": "Miền Nam",
+    "region": "Đồng bằng sông Cửu Long"
+  },
+  {
+    "index": 12,
+    "name": "CÀ MAU",
+    "position": [9.185888, 105.164991],
+    "address": "298 Trần Hưng Đạo, P5, TP Cà Mau, Cà Mau",
+    "phone": "0979 277 292",
+    "area": "Miền Nam",
+    "region": "Đồng bằng sông Cửu Long"
+  },
+  {
+    "index": 11,
+    "name": "CẦN THƠ",
+    "position": [10.049635, 105.786076],
+    "address": "210 Trần Phú, Cái Khế, Ninh Kiều, Cần Thơ",
+    "phone": "032710777",
+    "area": "Miền Nam",
+    "region": "Đồng bằng sông Cửu Long",
+    "important": true,
+    "labelPosition": [0,0,-100, -40],
+    "labelPositionMb": [0,0,-80, -60],
+    "positionRect": true
+  },
+  {
+    "index": 17,
+    "name": "ĐỒNG THÁP",
+    "position": [10.459769, 105.639683],
+    "address": "267, Ngô Thời Nhậm, Phường 1, Tp Cao Lãnh, Đồng Tháp",
+    "phone": "0327 057 777",
+    "area": "Miền Nam",
+    "region": "Đồng bằng sông Cửu Long",
+    "showLabel": true
+  },
+  {
+    "index": 23,
+    "name": "HẬU GIANG",
+    "position": [9.791516, 105.484377],
+    "address": "65 Võ Văn Kiệt, P5, TP Vị Thanh, Hậu Giang",
+    "phone": "0327 147 777",
+    "area": "Miền Nam",
+    "region": "Đồng bằng sông Cửu Long"
+  },
+  {
+    "index": 32,
+    "name": "KIÊN GIANG",
+    "position": [9.988165, 105.098536],
+    "address": "654 Nguyễn Trung Trực, Vĩnh Lạc, TP Rạch Giá, Kiên Giang",
+    "phone": "0327 167 777",
+    "area": "Miền Nam",
+    "region": "Đồng bằng sông Cửu Long"
+  },
+  {
+    "index": 38,
+    "name": "LONG AN",
+    "position": [10.550070, 106.416405],
+    "address": "20 Quốc lộ 1, Khu phố Bình Phú, Phường 5, Tp Tân An, Long An",
+    "phone": "0976 127 117",
+    "area": "Miền Nam",
+    "region": "Đồng bằng sông Cửu Long"
+  },
+  {
+    "index": 50,
+    "name": "SÓC TRĂNG",
+    "position": [9.593249, 105.977027],
+    "address": "84 Lê Duẫn, P3, TP Sóc Trăng, Sóc Trăng",
+    "phone": "032 713 7777",
+    "area": "Miền Nam",
+    "region": "Đồng bằng sông Cửu Long"
+  },
+  {
+    "index": 57,
+    "name": "TIỀN GIANG",
+    "position": [10.355689, 106.370948],
+    "address": "66 Đinh Bộ Lĩnh, KP5, P9, TP Mỹ Tho, Tiền Giang",
+    "phone": "0327 207 777",
+    "area": "Miền Nam",
+    "region": "Đồng bằng sông Cửu Long"
+  },
+  {
+    "index": 58,
+    "name": "TRÀ VINH",
+    "position": [9.927835, 106.331367],
+    "address": "156 Nguyễn Đáng, P7, TP. Trà Vinh, Trà Vinh",
+    "phone": "0327 097 777",
+    "area": "Miền Nam",
+    "region": "Đồng bằng sông Cửu Long"
+  },
+  {
+    "index": 60,
+    "name": "VĨNH LONG",
+    "position": [10.254046, 105.970973],
+    "address": "1C Trưng Nữ Vương, P1, TP Vĩnh Long, Vĩnh Long",
+    "phone": "0327 087 777",
+    "area": "Miền Nam",
+    "region": "Đồng bằng sông Cửu Long"
+  }
+]

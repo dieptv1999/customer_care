@@ -1,0 +1,205 @@
+@media screen and (max-width: 1139px){
+    #block-policy .container .content-item {
+        max-width: 550px;
+        margin-left: 30px;
+    }
+    #block-policy .item:nth-child(2n) .content-item {
+        margin-left: 0;
+        margin-right: 30px;
+    }
+    #block-app .content {
+        padding: 75px 30px;
+    }
+    #block-app .content-inner {
+        margin-top: 40px;
+    }
+    .block-session {
+        padding-bottom: 45px;
+    }
+}
+@media screen and (max-width: 992px){
+    .menu-toggle {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        color: var(--color82878B);
+    }
+    .wrap-menu{
+        position: fixed;
+        width: 320px;
+        height: 100%;
+        right: 0;
+        z-index: 999999;
+        top: 0;
+        position: fixed;
+        background-color: var(--colorwhite);
+        transform: translateX(100%);
+        transition: all .3s ease-in-out;
+    }
+    .primary-menu {
+        height: 100%;
+    }
+    .primary-menu .d-flex{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .wrap-menu .close {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 20px;
+        font-size: 30px;
+        cursor: pointer;
+        color: var(--colorEE0033);
+    }
+    .primary-menu li {
+        width: 100%;
+        margin-right: 0;
+    }
+    .primary-menu li a {
+        padding: 30px 15px;
+        border-bottom: 1px solid #EE003324;
+    }
+    .overlay {
+        position: fixed;
+        z-index: 9;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.9);
+        left: 0;
+        top: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: all .3s ease-in-out;
+    }
+    body.show-menu .wrap-menu{
+        transform: translateX(0%);
+        transition: all .3s ease-in-out;
+    }
+    body.show-menu .overlay {
+        opacity: 1;
+        visibility: visible;
+        transition: all .3s ease-in-out;
+    }
+    .logo img {
+        max-width: 80px;
+    }
+    .wrapper {
+        padding-top: 75px;
+    }
+    .header {
+        padding: 10px 0
+    }
+    #block-about .wrap-content-about {
+        min-height: 600px;
+    }
+    .list-support li:nth-child(2n) {
+        padding: 0;
+    }
+    #block-policy .container {
+        flex-direction: column !important;
+    }
+    #block-policy .lists .item {
+        padding: 30px 0
+    }
+    #block-policy .container .content-item {
+        max-width: 100%;
+        margin: 30px 0 0 !important;
+    }
+    #block-app .container .justify-content-between{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+    }
+    #block-app .images {
+        order: -1
+    }
+    .logo-footer {
+        margin-right: 30px;
+    }
+}
+@media screen and (max-width: 736px){
+    #block-app .content {
+        width: 100%;
+        padding: 40px 30px;
+    }
+    .list-support li {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .list-support::after {
+        display: none;
+    }
+    .list-support li:nth-child(2) {
+        margin-top: 15px;
+    }
+    .item-warranty .table {
+        min-width: 700px;
+    }
+    .item-warranty .table tbody .city {
+        width: 16%;
+    }
+    .footer .container > .d-flex{
+        flex-direction: column;
+    }
+    .footer {
+        padding: 40px 0;
+    }
+    .logo-footer {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .maps iframe {
+        height: 500px;
+    }
+}
+@media screen and (max-width: 568px){
+    .title-h3 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .swiper-nav, .swiper-pagination{
+        display: none;
+    }
+    .list-products {
+        padding-bottom: 20px;
+    }
+    #info-contact a {
+        width: 40px;
+        height: 40px;
+    }
+    #info-contact {
+        right: 15px;
+        bottom: 15px;
+    }
+    .wrap-phone {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    .footer .infomation .phone {
+        position: relative;
+        padding-right: 0;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .footer .infomation .phone:after {
+        display: none;
+    }
+    .header-block {
+        margin-bottom: 25px;
+    }
+    #block-policy, #block-warranty, #block-products {
+        padding-bottom: 30px;
+    }
+    .block-session, #block-about {
+        padding: 30px 0
+    }
+}
+@media screen and (max-width: 384px){
+   
+}

@@ -1,0 +1,81 @@
+jQuery(document).ready(function($){
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:30,
+        center: true,
+        responsiveClass:true,        
+        responsive:{
+            0:{
+                items:1,
+                nav:false,
+                dots:false
+            },
+            568:{
+                items:2,
+                loop:true,
+                center: false,
+                nav:true,
+            },
+            992:{
+                items:3,
+                nav:true,
+                loop:true,
+            }
+        }
+    })
+    // var wrapSwiper = new Swiper(".list-products", {
+    //     slidesPerView: 3,
+    //     spaceBetween: 30,
+    //     loop:true,
+    //     // autoplay: {
+    //     //     delay: 2500,
+    //     //     disableOnInteraction: true,
+    //     // },                    
+    //     navigation: {
+    //         nextEl: ".swiper-button-next",
+    //         prevEl: ".swiper-button-prev",
+    //     },
+    //     pagination: {
+    //         el: ".swiper-pagination",
+    //     },
+    //     breakpoints: {
+    //         320: {
+    //             slidesPerView: 1,
+    //         },
+    //         568: {
+    //             slidesPerView: 2,
+    //         },
+    //         992: {
+    //             slidesPerView: 3,
+    //         },
+    //     }
+    // });    
+    var stickyOffset = $('#block-about').offset().top;
+    $(window).scroll(function(){
+        var body = $('body'),
+        scroll = $(window).scrollTop();
+        if (scroll >= stickyOffset) body.addClass('fixed-header');
+        else body.removeClass('fixed-header');
+    }); 
+    $(document).on('click', '.primary-menu a', function () {
+        var target = $(this).attr('href');
+        var heigthHeader = $('.header').outerHeight();
+        $('.primary-menu a').removeClass('active-menu');
+        $('body').removeClass('show-menu')
+        $(this).addClass('active-menu');
+        $('html, body').animate({
+            scrollTop: $(target).offset().top - heigthHeader
+        }, 300);
+    });     
+    $(document).on('click', '.menu-toggle', function () {
+        $('body').addClass('show-menu');       
+    });     
+    $(document).on('click', '.wrap-menu .close', function () {
+        $('body').removeClass('show-menu');       
+    }); 
+    $(document).click(function(event) {
+        if (event.target.className == 'overlay') {
+            $('body').removeClass('show-menu');
+        }
+    });     
+});
