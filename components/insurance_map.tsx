@@ -18,7 +18,7 @@ import CityInfoCard from "./city_info_card";
 const vietnam = [vnTopo, hsa, truongsa];
 
 export default function InsuranceMap({selected, setSelected}: any) {
-  const ref = useRef(null);
+  const ref = useRef<any>(null);
   const [visibleInfo, setVisibleInfo] = useState(false);
   const [selectedVal, setSelectedVal] = useState<any>(null);
   const markers = serviceCenter.map((center) => ({
@@ -42,7 +42,7 @@ export default function InsuranceMap({selected, setSelected}: any) {
 
   useEffect(() => {
     if (ref.current) {
-      ref.current.scrollTo(230, 0);
+      ref.current?.scrollTo(230, 0);
     }
   }, [ref.current]);
 
@@ -157,6 +157,7 @@ export default function InsuranceMap({selected, setSelected}: any) {
                       style={{fontFamily: "system-ui", stroke: "#434343", fontSize: 10}}
                       className="tracking-[.2em]"
                     >
+                      {/*@ts-ignore*/}
                       <p xmlns="http://www.w3.org/1999/xhtml" className="font-bold">{name}</p>
                     </foreignObject>
 
@@ -174,6 +175,7 @@ export default function InsuranceMap({selected, setSelected}: any) {
                         style={{fontFamily: "system-ui", stroke: "#434343", fontSize: 8, strokeWidth: 1,}}
                         className="hover:underline cursor-pointer"
                       >
+                        {/*@ts-ignore*/}
                         <p xmlns="http://www.w3.org/1999/xhtml">{address}</p>
                       </foreignObject>
                     </a>
@@ -188,6 +190,7 @@ export default function InsuranceMap({selected, setSelected}: any) {
                         style={{fontFamily: "system-ui", stroke: "#434343"}}
                         className="tracking-wide"
                       >
+                        {/*@ts-ignore*/}
                         <p xmlns="http://www.w3.org/1999/xhtml" className="font-bold text-[9px]">{phone}</p>
                       </foreignObject>
                     </a>
