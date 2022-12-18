@@ -34,8 +34,8 @@ export default function InsuranceMap({selected, setSelected}: any) {
   }
 
   useEffect(() => {
-    if (selected && !visibleInfo) {
-      setSelectedVal(find(serviceCenter, (obj) => obj.index))
+    if (selected) {
+      setSelectedVal(find(serviceCenter, (obj) => obj.index === selected))
       setVisibleInfo(true);
     }
   }, [selected])
@@ -47,7 +47,7 @@ export default function InsuranceMap({selected, setSelected}: any) {
   }, [ref.current]);
 
   return (
-    <div className="relative overflow-auto lg:overflow-hidden w-full" ref={ref}>
+    <div className="relative overflow-auto lg:overflow-hidden w-full flex justify-center" ref={ref}>
       <ComposableMap
         projection="geoMercator"
         projectionConfig={{

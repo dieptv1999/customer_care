@@ -24,7 +24,7 @@ export default function DrawerInfoCenter(
   return (
     <div
       className={`top-0 lg:right-0 w-[312px] h-[312px] bg-red-100  p-[6px] 
-      text-white hidden lg:absolute z-2 transform ease-in-out duration-300 
+      text-white hidden lg:flex lg:absolute z-2 transform ease-in-out duration-300 
        rounded-lg
        border-2
        border-red-400
