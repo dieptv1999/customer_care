@@ -47,7 +47,7 @@ export default function InsuranceMap({selected, setSelected}: any) {
   }, [ref.current]);
 
   return (
-    <div className="relative overflow-auto lg:overflow-hidden w-auto lg:w-full flex justify-center" ref={ref}>
+    <div className="relative overflow-auto lg:overflow-hidden lg:w-full flex justify-center" ref={ref}>
       <ComposableMap
         projection="geoMercator"
         projectionConfig={{
