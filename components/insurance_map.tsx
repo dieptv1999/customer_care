@@ -41,7 +41,7 @@ export default function InsuranceMap({selected, setSelected}: any) {
   }, [selected])
 
   useEffect(() => {
-    if (width < 980 && ref.current) {
+    if (width && width < 980 && ref.current) {
       ref.current?.scrollTo(230, 0);
     }
   }, [ref.current]);
